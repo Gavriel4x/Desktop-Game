@@ -1,0 +1,179 @@
+#play-btn {
+    -fx-text-fill: #FFFFFF;
+}
+
+.root { 
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.check-box {
+    -fx-alignment: CENTER;
+    -fx-background-color: white;
+}
+
+.check-box .box {
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-radius: 0; 
+}
+
+.check-box:selected .mark {
+    -fx-background-color: white;
+}
+
+.check-box:selected .box {
+    -fx-background-color: white;
+}
+
+.spinner {
+    -fx-alignment: CENTER;
+    -fx-background-color: red;
+    -fx-accent: #202124;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-color: transparent;
+}
+
+.spinner .increment-arrow-button,
+.spinner .decrement-arrow-button {
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-body-color: #000000;
+    -fx-color: transparent;
+    -fx-padding: 4 3 4 3;
+}
+
+.spinner .increment-arrow-button:hover,
+.spinner .decrement-arrow-button:hover {
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-body-color: #000000;
+    -fx-color: transparent;
+}
+
+.spinner .increment-arrow-button:hover:pressed,
+.spinner .decrement-arrow-button:hover:pressed,
+.spinner .increment-arrow-button:pressed,
+.spinner .decrement-arrow-button:pressed {
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-body-color: #000000;
+    -fx-color: transparent;
+}
+
+.spinner:focused .increment-arrow-button,
+.spinner:focused .decrement-arrow-button {
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-body-color: #000000;
+    -fx-color: transparent;
+    -fx-padding: 4 3 4 3;
+}
+
+.spinner .increment-arrow-button .increment-arrow {
+    -fx-background-color: white;
+    -fx-padding: 4 3 4 3;
+}
+
+.spinner .decrement-arrow-button .decrement-arrow {
+    -fx-background-color: white;
+    -fx-padding: 4 3 4 3;
+}
+
+.progress {
+    -fx-background-color: #FFFFFF;
+}
+
+.option-container {
+    -fx-background-color: #000000;
+}
+
+.slider .track {
+    -fx-background-color: transparent;
+}
+
+.slider .thumb {
+    -fx-background-color: #FFFFFF;
+    -fx-background-insets: 0 0 0 0, 0, 0, 0;
+    -fx-background-radius: 0px, 0px, 0px, 0px;
+}
+
+.slider:focused .thumb {
+    -fx-background-color: #FFFFFF;
+    -fx-background-insets: 0 0 0 0, 0, 0, 0;
+    -fx-background-radius: 0px, 0px, 0px, 0px;
+}
+
+.noheader .column-header-background {
+    -fx-max-height: 0;
+    -fx-pref-height: 0;
+    -fx-min-height: 0;
+}
+
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+}
+
+.table-row-cell: hover {
+    -fx-background-color: transparent;;
+    -fx-text-background-color: red;
+}
+
+.table-row-cell: odd{
+    -fx-background-color: transparent;;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell: even{
+    -fx-background-color: transparent;;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.label {
+    -fx-text-fill: #FFFFFF;
+    -fx-alignment: CENTER;
+}
+
+.text-field {
+    -fx-accent: #202124;
+    -fx-alignment: CENTER;
+    -fx-background-color: transparent;
+    -fx-text-fill: #FFFFFF;
+}
+
+#phrase {
+    -fx-text-fill: #737373;
+}
+
+.button {
+    -fx-alignment: CENTER;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-text-fill: #737373;
+}
+
+.button:hover {
+    -fx-text-fill: #FFFFFF;
+}
